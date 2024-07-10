@@ -1,7 +1,6 @@
 from django.apps import AppConfig
 
 
-class EzAppConfig(AppConfig):
+class NewsletterAppConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'EZ_app'
-
+    name = 'newsletter_app'
